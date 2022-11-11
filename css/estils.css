@@ -1,3 +1,6 @@
+/* css albert */
+
+
 body {
     margin: 0 20%;
     font-size: 1.25rem;
@@ -60,7 +63,44 @@ body {
     display: none;
   }
 
-  
+
+
+
+
+
+  /* css carlos */
+
+  .parrafo-left{
+    text-align: left;
+}
+
+.parrafo-right{
+    text-align: right;
+}
+
+.parrafo-center{
+    text-align: center;
+}
+
+.parrafo-justify{
+    text-align: justify;
+}
+
+.parrafo-justifyAll{
+    text-align: justify-all;
+}
+
+.parrafo-matchParent{
+    text-align: match-parent;
+}
+
+.parrafo-start{
+    text-align: start;
+}
+
+.parrafo-end{
+    text-align: end;
+}
 
   
 
