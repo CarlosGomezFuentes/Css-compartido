@@ -1,0 +1,67 @@
+body {
+    margin: 0 20%;
+    font-size: 1.25rem;
+  }
+ 
+  .example{
+    
+    
+  }
+
+  .example-withoutProperties-active{
+    
+    background-image: url(img/LogoPedralbesNF.png);
+    height: 200px;
+    border: 2px solid black;
+
+  }
+
+  .example-NoRepeat-active{
+    background-image: url(img/LogoPedralbesNF.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    border: 2px solid black;
+    
+  }
+
+  .example-Cover-active{
+    background-image: url(img/LogoPedralbesNF.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    border: 2px solid black;
+    background-size: cover;
+  }
+  .example-linearGradient-active{
+    background-image: linear-gradient(rgba(21, 21, 21, 0.5), rgba(202, 202, 202, 0.5)),
+                url(img/LogoPedralbesNF.png);
+    height: 200px;
+    border: 2px solid black;
+  }
+
+  .example-crossFade-active{
+    background-image: cross-fade(50% url(img/iniciBaner.jpg), url(img/LogoPedralbesNF.png));
+    width:600px; 
+    height:600px;
+    border: 2px solid black;
+  }
+
+  article section{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in;
+  }
+
+  input:checked~section{
+    overflow: auto;
+    max-height: 100vh;
+  }
+
+  input{
+    display: none;
+  }
+
+  
+
+  
+
+ 
