@@ -17,7 +17,7 @@ body {
   }
 
   .example-NoRepeat-active{
-    background-image: url(i../mg/LogoPedralbesNF.png);
+    background-image: url(../img/LogoPedralbesNF.png);
     background-repeat: no-repeat;
     height: 200px;
     border: 2px solid black;
